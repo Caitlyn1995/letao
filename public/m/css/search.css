@@ -1,0 +1,26 @@
+.history {
+  padding: 10px;
+}
+.history .title {
+  font-size: 12px;
+  color: #666;
+}
+.content {
+  padding-top: 10px;
+}
+.content ul {
+  border: 1px dashed red;
+}
+.content li {
+  border-bottom: 1px dashed red;
+  height: 30px;
+  line-height: 30px;
+  padding-left: 10px;
+  font-size: 12px;
+}
+.content li a {
+  color: #666;
+}
+.content li:last-child {
+  border-bottom: none;
+}

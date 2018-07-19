@@ -8,7 +8,7 @@ $(document).ajaxStop(function(){
     
     setTimeout(function(){
         NProgress.done();
-    },500000)
+    },500)
 })
 
 

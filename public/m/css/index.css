@@ -1,0 +1,27 @@
+.lt_main .nav {
+  padding: 10px;
+}
+.lt_main .nav li {
+  float: left;
+  width: 33.33%;
+}
+.lt_main .product {
+  padding: 0 10px;
+}
+.lt_main .product li {
+  width: 48%;
+  float: left;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.lt_main .product li:nth-child(even) {
+  float: right;
+}
+.lt_main .product a {
+  text-align: center;
+}
+.lt_main .product .price {
+  color: red;
+}

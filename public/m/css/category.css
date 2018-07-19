@@ -1,0 +1,49 @@
+.lt_main {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.lm_left {
+  float: left;
+  height: 100%;
+  width: 90px;
+  background-color: pink;
+  position: relative;
+}
+.lm_left li {
+  display: block;
+  text-align: center;
+  width: 90px;
+  height: 50px;
+  line-height: 50px;
+  border-right: 1px solid red;
+  border-bottom: 1px solid red;
+}
+.lm_left li.active {
+  border-right: none;
+  background-color: #fff;
+}
+.lm_right {
+  overflow: hidden;
+  height: 100%;
+  position: relative;
+}
+.lm_right ul {
+  overflow: hidden;
+}
+.lm_right li {
+  width: 33.33%;
+  height: 100%;
+  float: left;
+}
+.lm_right li img {
+  width: 62px;
+  height: 62px;
+  margin: 0 auto;
+}
+.lm_right li p {
+  text-align: center;
+}
+.tips {
+  padding: 10px;
+}
